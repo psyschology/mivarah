@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label.mivarah x Jetweb Labs | Your Online Boutique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF8; /* A warm, off-white to match their aesthetic */
+            color: #4A4A4A;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+        .mivarah-gradient-text {
+            background: linear-gradient(90deg, #8D6E63, #A1887F);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .jetweb-gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+             background-image: linear-gradient(rgba(253, 251, 248, 0.3), rgba(253, 251, 248, 0.9)), url('https://images.pexels.com/photos/842950/pexels-photo-842950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+             background-size: cover;
+             background-position: center;
+        }
+        .card-bg {
+            background-color: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#FDFBF8]/80 backdrop-blur-sm border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-tight">
+                <span class="jetweb-gradient-text">Jetweb Labs</span> x <span class="mivarah-gradient-text">Mivarah</span>
+            </h1>
+            <a href="#cta" class="bg-[#8D6E63] text-white font-semibold px-4 py-2 rounded-lg hover:bg-[#795548] transition-colors text-sm">
+                Schedule Strategy Call
+            </a>
+        </div>
+    </header>
+
+    <!-- Section 1: Hero -->
+    <section id="hero" class="min-h-screen flex items-center justify-center text-center hero-bg p-6 pt-20">
+        <div class="max-w-4xl">
+            <h2 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight mb-4 text-[#4A4A4A]">
+                Mivarah, let's transform your beautiful designs from an Instagram feed into an <span class="mivarah-gradient-text">iconic online boutique</span>.
+            </h2>
+            <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+                Your craftsmanship deserves a world-class stage. We'll build the elegant, secure e-commerce platform that matches the quality of your label.
+            </p>
+            <a href="#problem" class="bg-[#8D6E63] text-white font-bold px-8 py-4 rounded-lg text-lg inline-block hover:bg-[#795548] transition-transform hover:scale-105">
+                Discover Your Boutique 👇
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 2: The Problem -->
+    <section id="problem" class="py-20 md:py-32 bg-white px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">Your designs are elegant. <br>Your sales process should be too.</h2>
+            <p class="text-gray-500 max-w-3xl mx-auto mb-12 md:mb-20">Relying on DMs for sales is like hiding handcrafted art in a crowded market. Let's give your customers the premium, seamless shopping experience they expect.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- The Instagram Grid -->
+                <div class="bg-gray-100 p-8 rounded-2xl border border-red-200">
+                    <h3 class="text-2xl font-bold text-red-800 mb-6">The "DM to Buy" Labyrinth</h3>
+                    <div class="space-y-3 text-left">
+                        <div class="bg-gray-200 p-3 rounded-lg max-w-xs text-sm">Price for this?</div>
+                        <div class="bg-gray-200 p-3 rounded-lg ml-auto max-w-xs text-sm">Is this available in Medium?</div>
+                        <div class="bg-gray-200 p-3 rounded-lg max-w-xs text-sm">How to order? Do you have GPay?</div>
+                        <div class="bg-red-100 p-3 rounded-lg ml-auto max-w-xs text-sm text-red-700">Sorry, COD not available... 😥</div>
+                    </div>
+                    <p class="mt-6 text-red-700">❌ Customer confusion, manual effort, and lost sales.</p>
+                </div>
+
+                <!-- The Mivarah Boutique -->
+                <div class="bg-gray-100 p-8 rounded-2xl border border-green-200">
+                    <h3 class="text-2xl font-bold text-green-800 mb-6">The Mivarah Boutique</h3>
+                    <div class="bg-white p-4 rounded-lg shadow-sm text-left">
+                        <img src="https://images.pexels.com/photos/10357351/pexels-photo-10357351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Elegant Dress" class="rounded-lg mb-4 object-cover h-64 w-full">
+                        <h4 class="font-bold text-lg">Timeless Elegance Kurta</h4>
+                        <p class="text-2xl font-bold mivarah-gradient-text my-2">₹4,899</p>
+                        <div class="flex items-center gap-2 mb-3">
+                            <span>Size:</span>
+                            <button class="border px-2 py-1 rounded">S</button>
+                            <button class="border px-2 py-1 rounded bg-[#8D6E63] text-white">M</button>
+                            <button class="border px-2 py-1 rounded">L</button>
+                        </div>
+                        <button class="w-full bg-green-600 text-white font-semibold py-2 rounded-lg">Add to Cart</button>
+                    </div>
+                     <p class="mt-6 text-green-700">✅ Premium experience, instant purchases, and happy customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: The Solution -->
+    <section id="solution" class="py-20 md:py-32 bg-[#FDFBF8] px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">This is <span class="mivarah-gradient-text">Label Mivarah</span>. Reimagined.</h2>
+            <p class="text-gray-500 max-w-3xl mx-auto mb-12">An exclusive online boutique that reflects the quality of your craft. Here's a preview of your new home.</p>
+
+            <div class="max-w-6xl mx-auto bg-white rounded-2xl border border-gray-200 shadow-xl">
+                <!-- Mock Browser Header -->
+                <div class="p-4 border-b border-gray-200 flex items-center gap-2">
+                    <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                    <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                    <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                    <div class="ml-4 bg-gray-100 text-sm text-gray-500 px-4 py-1 rounded-full flex-1 text-center">
+                        https://www.mivarah.com
+                    </div>
+                </div>
+
+                <!-- Mock Website Content -->
+                <div class="p-4 md:p-8">
+                     <div class="text-center mb-12">
+                         <h3 class="text-4xl font-bold">Mivarah</h3>
+                         <p class="text-gray-500">Ethnic Elegance, Handcrafted For You.</p>
+                    </div>
+                    
+                    <h4 class="text-2xl font-bold text-center mb-8">Featured Collection</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="text-center group">
+                            <img src="https://images.pexels.com/photos/10189283/pexels-photo-10189283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="rounded-lg mb-2 object-cover h-96 w-full group-hover:opacity-80 transition-opacity">
+                            <h5 class="font-semibold">Azure Blue Suit Set</h5>
+                            <p class="text-gray-500">₹5,200</p>
+                        </div>
+                         <div class="text-center group">
+                            <img src="https://images.pexels.com/photos/16892537/pexels-photo-16892537/free-photo-of-elegant-woman-in-a-sari.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="rounded-lg mb-2 object-cover h-96 w-full group-hover:opacity-80 transition-opacity">
+                            <h5 class="font-semibold">Pastel Embroidered Kurta</h5>
+                             <p class="text-gray-500">₹4,500</p>
+                        </div>
+                         <div class="text-center group">
+                            <img src="https://images.pexels.com/photos/15942436/pexels-photo-15942436/free-photo-of-woman-in-traditional-clothing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="rounded-lg mb-2 object-cover h-96 w-full group-hover:opacity-80 transition-opacity">
+                            <h5 class="font-semibold">Crimson Anarkali</h5>
+                             <p class="text-gray-500">₹6,800</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: The Features -->
+    <section id="features" class="py-20 md:py-32 bg-white px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">Your E-commerce Powerhouse.</h2>
+            <p class="text-gray-500 max-w-3xl mx-auto mb-12 md:mb-20">We integrate the essential features to run your boutique on autopilot.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Feature 1 -->
+                <div class="card-bg p-8 rounded-2xl text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-4 text-[#8D6E63]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" /></svg>
+                    <h3 class="text-xl font-bold mb-2">Secure, Instant Payments</h3>
+                    <p class="text-gray-600">Accept payments from anyone, anywhere with all major cards, wallets, and UPI. No more payment friction.</p>
+                </div>
+                 <!-- Feature 2 -->
+                <div class="card-bg p-8 rounded-2xl text-center">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-4 text-[#8D6E63]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                    <h3 class="text-xl font-bold mb-2">Effortless Inventory Mgmt</h3>
+                    <p class="text-gray-600">Your online store automatically tracks stock, manages sizes, and marks items as 'sold out', saving you hours of manual work.</p>
+                </div>
+                 <!-- Feature 3 -->
+                <div class="card-bg p-8 rounded-2xl text-center">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-4 text-[#8D6E63]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+                    <h3 class="text-xl font-bold mb-2">A Brand that Builds Trust</h3>
+                    <p class="text-gray-600">A professional `.com` domain and a beautiful website build instant credibility, turning followers into loyal customers who trust your brand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: The Partnership CTA -->
+    <section id="cta" class="py-20 md:py-32 bg-[#FDFBF8] px-6">
+        <div class="container mx-auto text-center max-w-3xl">
+            <img src="logo.png" class="h-12 mx-auto mb-6" alt="Jetweb Labs Logo">
+            <h2 class="text-3xl md:text-5xl font-bold mb-4">Ready to weave your digital legacy, Mivarah?</h2>
+            <p class="text-gray-600 text-lg mb-8">
+                This personalized preview was crafted to show you the potential we see. We don't just build websites; we build homes for brands that are meant to last.
+            </p>
+            <a href="https://calendly.com/" target="_blank" class="bg-blue-600 text-white font-bold px-10 py-5 rounded-lg text-xl inline-block hover:bg-blue-700 transition-transform hover:scale-105">
+                Schedule Your 15-Min Strategy Call
+            </a>
+            <p class="text-sm text-gray-400 mt-4">Let's discuss how we can bring this vision to life.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200">
+        <div class="container mx-auto px-6 py-4 text-center text-gray-400 text-sm">
+            &copy; 2025 Jetweb Labs. All Rights Reserved. A Personalized Proposal for Label Mivarah.
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
